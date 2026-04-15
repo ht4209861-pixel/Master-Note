@@ -1,0 +1,9 @@
+body { background: #050505; color: #d4af37; font-family: sans-serif; display: flex; height: 100vh; margin: 0; }
+.sidebar { width: 280px; background: #0a0a0a; border-right: 2px solid #d4af37; padding: 25px; }
+.logo { font-size: 1.5rem; font-weight: bold; border-bottom: 2px solid #d4af37; padding-bottom: 15px; text-align: center; }
+.menu { margin-top: 30px; }
+.menu-btn { width: 100%; padding: 15px; background: transparent; color: #d4af37; border: 1px solid #222; margin-bottom: 12px; cursor: pointer; text-align: left; border-radius: 8px; transition: 0.3s; }
+.menu-btn:hover, .menu-btn.active { background: #d4af37; color: #000; font-weight: bold; }
+.main-content { flex: 1; padding: 50px; overflow-y: auto; background: #0d0d0d; }
+.note-box { max-width: 800px; margin: auto; line-height: 1.8; }
+h1 { border-left: 5px solid #d4af37; padding-left: 15px; margin-bottom: 30px; }
